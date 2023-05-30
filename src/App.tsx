@@ -9,7 +9,7 @@ const App = ()=>(
 	<div className="App">
 	<p>name : {user.name}</p>
 	<p>age : {user.age}</p>
-	<p>mail : {user.mail}</p>
+	
 		 </div>
 )
  
