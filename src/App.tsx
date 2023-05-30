@@ -1,16 +1,18 @@
-import React from "react";
 import "./App.css";
-
-function App() {
-	return (
-		<div className="App">
-			<header className="App-header">
-				<p>
-					Edit <code>src/App.tsx</code> and save to reload.
-				</p>
-			</header>
-		</div>
-	);
+const user ={
+name:'denys',
+age:22,
+mail:'asd@asd.com'
 }
+
+const App = ()=>(
+	<div className="App">
+	<p>name : {user.name}</p>
+	<p>age : {user.age}</p>
+	<p>mail : {user.mail}</p>
+		 </div>
+)
+ 
+
 
 export default App;
